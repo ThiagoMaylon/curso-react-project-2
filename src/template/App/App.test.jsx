@@ -7,9 +7,10 @@ test('renders learn react link', () => {
   const {debug} = renderTheme(<Home />);
   const headingContainer = screen.getByRole('heading', {name: 'olá mundo'}).parentElement;
 
-  expect(headingContainer).toHaveStyle({
+  expect(headingContainer).toHaveStyleRule({
     background: 'red',
-  })
-
+  });
+  
   expect(headingContainer).toMatchSnapshot();
+
 });

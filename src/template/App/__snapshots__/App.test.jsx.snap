@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders learn react link 1`] = `
+.c0 {
+  background: red;
+}
+
 <div
-  class="sc-bcXHqe TLTrD"
+  class="c0"
 >
   <h1>
     olá mundo
